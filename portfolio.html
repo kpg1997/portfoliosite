@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./image//favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <script src="./libs/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+    <div class="header" id="main">
+        <div class="header-list">
+            <ul>
+                <li id="first"><a href="#main">Main</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#skills">Skills</a> </li>
+                <li><a href="#my-work">My work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="main-title">Portfolio</div>
+        <div class="typing"></div>
+    </div>
+    <div class="body">
+        <div id="about-me">
+            <div class="about-me-panel">
+                <div class="about-me-panel-title">About Me</div>
+                <div class="about-me-panel-contents">
+                    대학교 전공 수업으로 프로그래밍에 관해 간략하게 배웠는데 그때 흥미를 갖게 되었고<br>
+                    대학교 졸업 후 개발자에 대해 알게되었고 프로그래밍에 대해 더 알고 싶어서 공부하게 되었습니다.
+                    <br><br>과정<br>
+                    &nbsp;&nbsp;- [2020과정평가형]정보처리산업기사(JAVA, 앱프로그래밍)-(2020.04.06 ~ 2020.08.27)<br>
+                    &nbsp;&nbsp;- 블록체인 기반 핀테크 및 응용 SW 개발자 양성과정-(2020.12.21 ~ 2021.10.04)<br>
+                </div>
+            </div>
+        </div>
+        <div id="skills">
+            <div class="all">
+                <div class="skills-panel">
+                    <div class="skills-panel-title">Skills</div>
+                    <div class="Front-end">
+                        <div class="skills-title">Front-end</div>
+                        <div class="kind">
+                            <div class="kind-img-panel" id="html">
+                                <div><img src="./image/HTML.png" alt=""></div>
+                            </div>
+                            <div class="kind-img-panel" id="css">
+                                <div><img src="./image/CSS.png" alt=""></div>
+                            </div>
+                            <div class="kind-img-panel" id="js">
+                                <div><img src="./image/javascript.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Back-end">
+                        <div class="skills-title">Back-end</div>
+                        <div class="kind">
+                            <div class="kind-img-panel" id="node">
+                                <div>
+                                    <img src="./image/nodejs.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="percent-panel">
+                    <div class="back-width-fixed">
+                        <div class="back-percent">
+                            <div class="front-percent" id="front-percent-html"></div>
+                            <div class="percenttext" id="percent-html">90%</div>
+                        </div>
+                        <div class="back-percent">
+                            <div class="front-percent" id="front-percent-css"></div>
+                            <div class="percenttext" id="percent-css">85%</div>
+                        </div>
+                        <div class="back-percent">
+                            <div class="front-percent" id="front-percent-javascript"></div>
+                            <div class="percenttext" id="percent-js">90%</div>
+                        </div>
+                        <div class="back-percent">
+                            <div class="front-percent" id="front-percent-nodejs"></div>
+                            <div class="percenttext" id="percent-node">90%</div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div id="my-work">
+            <div class="my-work-panel">
+                <div class="my-work-panel-title">My Work</div>
+                <div class="my-work-project">
+                    <div class="my-work-title">Project1 </div>
+                    <div class="my-work-img"><a href="https://kpg1997.github.io/Project_01/index.html"
+                            target="_blank"><img src="./image/project_1.png" alt="클론코딩"></a></div>
+                    <div class="my-work-contents">
+                        <div class="my-work-contents-title">영화소개(클론 코딩)<a
+                                href="https://kpg1997.github.io/Project_01/index.html" target="_blank"
+                                title="Page URL"><img src="./image/url.png" alt="" class="url-image" id="project1"></a>
+                        </div>
+                        <div class="my-work-contents-production-period">제작기간 : 21.01.13 ~ 21.01.19</div>
+                        <div class="my-work-contents-summary">구현 기능 : 없음</div>
+                        <div class="my-work-contents-githuburl">Github : <a href="https://github.com/kpg1997/Project_01"
+                                target="_blank">https://github.com/kpg1997/Project_01</a></div>
+                        <div class="my-work-contents-lan">#HTML #JavaScript #CSS</div>
+                    </div>
+                </div>
+                <div class="my-work-project">
+                    <div class="my-work-title">Project2</div>
+                    <div class="my-work-img"><a href="http://dbcon.cafe24app.com/index.html" target="_blank"><img
+                                src="./image/project_2.png" alt="팀프로젝트"></a></div>
+                    <div class="my-work-contents">
+                        <div class="my-work-contents-title">브랜드 소개(팀프로젝트)<a href="http://dbcon.cafe24app.com/index.html"
+                                target="_blank" title="Page URL"><img src="./image/url.png" alt="" class="url-image"
+                                    id="project2"></a></div>
+                        <div class="my-work-contents-production-period">제작기간 : 21.01.27 ~ 21.02.09 / 제작인원 : 3명</div>
+                        <div class="my-work-contents-summary">구현 기능 : 로그인·로그아웃, 회원가입, 게시판(작성·삭제·수정·검색), QnA(작성·삭제·수정·검색)
+                        </div>
+                        <div class="my-work-contents-summary">제작한 기능 및 페이지 : board, login, signup 페이지 제작, 아이디·비번 찾기,<br>
+                            로그인·로그아웃,회원가입 기능 구현, board게시판 제작 및 페이징 기능 DB연동 및 서버연결 총괄</div>
+                        <div class="my-work-contents-githuburl">Github : <a
+                                href="https://github.com/kpg1997/portfolio_teamproject" target="_blank"
+                                title="sourcetree를 이용하여 clone하셔야 볼 수 있습니다.">https://github.com/kpg1997/portfolio_teamproject</a>
+                        </div>
+                        <div class="my-work-contents-lan">#HTML #JavaScript #CSS #node.js</div>
+                    </div>
+                </div>
+                <div class="my-work-project">
+                    <div class="my-work-title">Project3</div>
+                    <div class="my-work-img"><a href="http://beargram.cafe24app.com/" target="_blank"><img
+                                src="./image/project_3.png" alt="개인프로젝트"></a></div>
+                    <div class="my-work-contents">
+                        <div class="my-work-contents-title">Beargram(개인프로젝트)<a href="http://beargram.cafe24app.com/"
+                                target="_blank" title="Page URL"><img src="./image/url.png" alt="" class="url-image"
+                                    id="project3"></a></div>
+                        <div class="my-work-contents-production-period">제작기간 : 21.03.08 ~ 21.03.23</div>
+                        <div class="my-work-contents-summary">구현 기능 : 회원가입, 로그인·로그아웃, 아이디·비번 찾기, 게시글 작성·수정·삭제, 댓글 기능, 검색
+                            기능,
+                            좋아요 기능, 팔로우 기능, 개인 정보 수정, 채팅 기능</div>
+                        <div class="my-work-contents-githuburl">Github : <a
+                                href="https://github.com/kpg1997/Project_Beargram" target="_blank"
+                                title="sourcetree를 이용하여 clone하셔야 볼 수 있습니다.">https://github.com/kpg1997/Project_Beargram</a>
+                        </div>
+                        <div class="my-work-contents-lan">#EJS #JavaScript #CSS #node.js</div>
+                    </div>
+                </div>
+                <div class="my-work-project">
+                    <div class="my-work-title">Project4</div>
+                    <div class="my-work-img"><a href="#" target="_blank"><img
+                                src="./image/project_4.png" alt="팀프로젝트" id="reactImg"></a></div>
+                    <div class="my-work-contents">
+                        <div class="my-work-contents-title">오점뭐(팀프로젝트)<a href="http://beargram.cafe24app.com/"
+                                target="_blank" title="Page URL"><img src="./image/url.png" alt="" class="url-image"
+                                    id="project3"></a></div>
+                        <div class="my-work-contents-production-period">제작기간 : 21.04.22 ~ 21.05.06 / 제작인원 : 3명</div>
+                        <div class="my-work-contents-summary">구현 기능 : React 게시판 부분 및 node.js 게시판 작성·수정·삭제</div>
+                        <div class="my-work-contents-githuburl">Github : <a
+                                href="https://github.com/kpg1997/Project_Beargram" target="_blank"
+                                title="sourcetree를 이용하여 clone하셔야 볼 수 있습니다.">깃허브 주소(아직 호스팅 준비중)</a>
+                        </div>
+                        <div class="my-work-contents-lan">#React #SCSS #CSS #node.js</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div id="contact">
+            <div class="contact-panel">
+                <div class="contact-title">Contact</div>
+                <div class="contact-contants">
+                    Email : kpg1998@nate.com<br>
+                    <div class="imgdiv"><a href="https://github.com/kpg1997?tab=repositories" target="_blank"><img
+                                src="./image/GitHub.png" alt=""></a></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="./js/portfolio.js"></script>
+</body>
+
+</html>

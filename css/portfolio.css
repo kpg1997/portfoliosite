@@ -1,0 +1,302 @@
+@font-face {
+    font-family: 'Jal_Onuel';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Jal_Onuel.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*header*/
+*{
+    font-family: 'Jal_Onuel';
+    margin: 0;
+    padding: 0;
+    -ms-user-select: none;
+     -moz-user-select: -moz-none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+        user-select:none;
+
+}
+.header{
+    background-color: #07689f;
+    width: 100%;
+    height: 969px;
+    display: table;
+}
+.header-list{
+    position: fixed;
+    right: 30px;
+    top: 0;
+    transition: all 0.5s;
+}
+.header-list li{
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.header-list li a{
+    text-decoration: none;
+    color: black;
+}
+.header-list li a:hover{
+    color: white;
+}
+#first{
+    margin-left: 60px;
+}
+.header-list li:hover{
+    color: azure;
+    
+}
+/* .main-title{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 250px;
+} */
+.main-title{
+    display: none;
+    /* font-family: 'TmoneyRoundWindExtraBold'; */
+}
+  
+
+.typing {  
+    text-align: center;
+    /* display: table-cell;
+    vertical-align: middle; */
+    font-size: 250px;
+    display: inline-block; 
+    width: auto;
+    margin-left: 25%;
+    margin-top: 15%;
+    animation-name: cursor; 
+    animation-duration: 0.3s; 
+    animation-iteration-count: infinite; 
+} 
+    @keyframes cursor{ 
+      0%{border-right: 1px solid #07689f} 
+      50%{border-right: 1px solid #000} 
+      100%{border-right: 1px solid #07689f} 
+    }
+/*body - about me*/
+/* #about-me{
+    background-color: ;
+} */
+.about-me-panel{
+    padding: 50px;
+    height: 250px;
+    width: 1100px;
+    margin: auto;
+}
+.about-me-panel-title{
+    text-align: left;
+    font-size: 50px;
+    font-weight: bolder;
+    width: 253px;
+    border-bottom: 3px solid black;
+}
+.about-me-panel-contents{
+    margin: auto;
+    text-align: left;
+    margin-top: 30px;
+}
+.Front-end,.Back-end{
+    display: block;
+}
+/*body - skills*/
+#skills{
+    background-color: #a2d5f2;
+}
+.skills-panel{
+    width: 550px;
+    margin: auto;
+    padding: 50px;
+}
+.skills-panel-title{
+    font-weight: bolder;
+    font-size: 50px;
+    width: 130px;
+    border-bottom: 3px solid black;
+}
+.skills-title{
+    text-align: left;
+    font-size: 25px;
+    margin-top: 20px;
+    
+}
+.kind-img-panel{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 3px 3px 3px 0px gray;
+    display: inline-block;
+    transition: 0.5s;
+    margin-right: 13px;
+    cursor: pointer;
+}
+.kind-img-panel div{
+    text-align: center;
+}
+.kind{
+    margin-top: 20px;
+}
+.kind img{
+    width: 100px;
+    height: 100px;
+    padding: 3px;
+    transition: 0.5s;
+    margin: auto;
+}
+.kind img:hover{
+    transform: rotate(25deg);
+    
+}
+.kind-img-panel:hover{
+    filter: brightness(50%);
+}
+.skills-panel,.percent-panel{
+    display: inline-block;
+    margin: auto; 
+    vertical-align: middle;
+}
+.percent-panel{
+    width: 500px;
+    height: 180px;
+}
+.back-width-fixed{
+    width: 400px;
+    margin: auto;
+}
+.back-percent{
+   width: 100%;
+   background-color:  gray;
+   margin-bottom: 40px;
+   height: 6px;
+}
+#front-percent-html{
+    width: 90%;
+    background-color: #e9dcc8;
+    transition: 0.3s;
+    height: 6px;
+}
+#front-percent-css{
+    width: 85%;
+    background-color: #e9dcc8;
+    transition: 0.3s;
+    height: 6px;
+}
+#front-percent-javascript{
+    width: 90%;
+    height: 6px;
+    background-color: #e9dcc8;
+    transition: 0.3s;
+
+}
+#front-percent-nodejs{
+    width: 90%;
+    background-color: #e9dcc8;
+    transition: 0.3s;
+    height: 6px;
+}
+.all{
+    width: 1200px;
+    margin: auto;
+}
+.percenttext{
+    text-align: right;
+    display: none;
+    transition: 0.5s;
+}
+/*body - mywork*/
+.my-work-panel{
+    width: 1100px;
+    margin: auto;
+    padding: 50px;
+}
+.my-work-panel-title{
+    font-weight: bolder;
+    font-size: 50px;
+    width: 230px;
+    border-bottom: 3px solid black;
+}
+.my-work-project{
+    margin-top: 20px;
+}
+.my-work-title{
+    text-align: left;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.my-work-img img{
+    width: 350px;
+    height: 200px;
+}
+.my-work-img #reactImg{
+    width: 250px;
+    height: 350px;
+}
+.my-work-img,.my-work-contents{
+    display: inline-block;
+    vertical-align: middle;
+}
+.my-work-contents{
+    margin-left: 30px;
+    width: 700px;
+}
+
+.my-work-contents-title{
+    font-size: 25px;
+}
+.my-work-contents-githuburl a{
+    text-decoration: none;
+    color: black;
+}
+.my-work-contents-production-period,.my-work-contents-summary,.my-work-contents-githuburl,.my-work-contents-lan{
+    margin-top: 6px;
+}
+.url-image{
+    width: 35px;
+    height: 35px;
+    margin-left: 13px;
+    vertical-align: middle;
+}
+
+
+/*footer-contact*/
+#contact{
+    background-color: #07689f;;
+}
+.contact-panel{
+    width: 1100px;
+    margin: auto;
+    padding: 50px;
+}
+.contact-title{
+    font-weight: bolder;
+    font-size: 50px;
+    width: 190px;
+    border-bottom: 3px solid black;
+}
+.contact-contants{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.contact-contants img{
+    width: 300px;
+}
+
+.imgdiv{
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+
