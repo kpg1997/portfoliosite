@@ -51,6 +51,24 @@ $('#node').mouseout(function(){
     $('#percent-node').css('display','none');
 });
 
+$('#node').mouseover(function(){
+    $('#front-percent-nodejs').css('background-color','green');
+    $('#percent-node').css('display','block');
+});
+$('#node').mouseout(function(){
+    $('#front-percent-nodejs').css('background-color','#e9dcc8');
+    $('#percent-node').css('display','none');
+});
+
+$('#mongo').mouseover(function(){
+    $('#front-percent-nodejs').css('background-color','green');
+    $('#percent-node').css('display','block');
+});
+$('#mongo').mouseout(function(){
+    $('#front-percent-nodejs').css('background-color','#e9dcc8');
+    $('#percent-node').css('display','none');
+});
+
 
 $('#project1').mouseover(function(){
     $('#project1').attr( 'src', './image/url_negative.png' );
