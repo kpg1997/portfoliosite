@@ -10,12 +10,18 @@
     font-family: 'Jal_Onuel';
     margin: 0;
     padding: 0;
+    transition: 0.5s;
     -ms-user-select: none;
     -moz-user-select: -moz-none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     user-select: none;
 
+}
+
+a{
+    text-decoration: none;
+    color:#07689f;
 }
 
 .header {
@@ -29,7 +35,11 @@
     position: fixed;
     right: 30px;
     top: 0;
+    padding-top: 5px;
+    margin: 5px;
     transition: all 0.5s;
+    border-radius: 3px;
+    /* box-shadow:  3px 1px 1px black; */
 }
 
 .header-list li {
@@ -52,11 +62,11 @@
 }
 
 #first {
-    margin-left: 60px;
+    margin-left: 40px;
 }
 
 .header-list li:hover {
-    color: azure;
+    color: white;
 
 }
 
@@ -285,7 +295,6 @@
 .react {
     text-align: center;
     width: 350px;
-    height: 350px;
 }
 
 .my-work-img img {
@@ -294,8 +303,8 @@
 }
 
 .my-work-img #reactImg {
-    width: 250px;
-    height: 350px;
+    width: 350px;
+    height: 200px;
 }
 
 .my-work-img,
