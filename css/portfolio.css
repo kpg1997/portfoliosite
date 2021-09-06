@@ -98,15 +98,15 @@ a{
 
 @keyframes cursor {
     0% {
-        border-right: 1px solid #07689f
+        border-right: 3px solid #07689f
     }
 
     50% {
-        border-right: 1px solid #000
+        border-right: 3px solid #000
     }
 
     100% {
-        border-right: 1px solid #07689f
+        border-right: 3px solid #07689f
     }
 }
 
@@ -268,6 +268,10 @@ a{
 }
 
 /*body - mywork*/
+details:hover{
+    cursor: pointer;
+}
+
 .my-work-panel {
     width: 1100px;
     margin: 50px auto 50px auto;
@@ -339,6 +343,18 @@ a{
     height: 35px;
     margin-left: 13px;
     vertical-align: middle;
+}
+.practice-panel{
+    width: 1100px;
+    margin: 50px auto 50px auto;
+    padding: 50px;
+}
+.practice-panel-title{
+    text-align: left;
+    font-size: 50px;
+    font-weight: bolder;
+    width: 253px;
+    border-bottom: 3px solid black;
 }
 
 
@@ -415,6 +431,7 @@ html {
     vertical-align: middle;
     position: relative;
     z-index: 2;
+    width: 800px;
     max-width: 800px;
     /* min-height: 300px; */
     box-sizing: border-box;
@@ -440,6 +457,10 @@ html {
 }
 .modal-open-a a{
     text-decoration: none;
+}
+
+.modal-open-a a:hover{
+    color:royalblue;
 }
 .modal_a a{
     text-decoration: none;
