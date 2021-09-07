@@ -365,6 +365,9 @@ details:hover{
     width: 253px;
     border-bottom: 3px solid black;
 }
+.my-work-img #TodayLunch{
+    width: 200px;
+}
 
 
 /*footer-contact*/
