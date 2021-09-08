@@ -570,10 +570,21 @@ html {
         margin: 2% auto 2% auto;
         padding: 1%;
     }
+    .my-work-img img {
+        width: 38.5vh;
+        height: 20vh;
+    }
     .practice-panel{
         width: 80%;
         margin: 2% auto 2% auto;
         padding: 1%;
+    }
+    .url-image {
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
+        vertical-align: middle;
+        transition: 0.5s;
     }
     .my-work-project {
         width: 100%;
@@ -584,3 +595,45 @@ html {
         font-size: x-small;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    *{
+        font-size: small;
+    }
+    .header{
+        height: 60vh;
+    }
+    .typing{
+        margin: 20vh auto 20vh auto;
+    }
+    .my-work-panel {
+        width: 80%;
+        margin: 2% auto 2% auto;
+        padding: 1%;
+    }
+    .my-work-img img {
+        width: 38.5vh;
+        height: 20vh;
+    }
+    .practice-panel{
+        width: 80%;
+        margin: 2% auto 2% auto;
+        padding: 1%;
+    }
+    .url-image {
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
+        vertical-align: middle;
+        transition: 0.5s;
+    }
+    .my-work-project {
+        width: 100%;
+    }
+    .my-work-contents {
+        margin-left: 0;
+        width: 90%;
+        font-size: x-small;
+    }
+}
+
