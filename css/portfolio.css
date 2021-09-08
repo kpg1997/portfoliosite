@@ -555,6 +555,8 @@ html {
     }
 }
 
+
+
 @media only screen and (max-width: 425px) {
     *{
         font-size: x-small;
@@ -563,7 +565,7 @@ html {
         height: 50vh;
     }
     .typing{
-        font-size: small;
+        font-size: 500%;
         margin: 20vh auto 20vh auto;
     }
     .kind-img-panel {
@@ -621,6 +623,7 @@ html {
         height: 60vh;
     }
     .typing{
+        font-size: 600%;
         margin: 20vh auto 20vh auto;
     }
     .kind-img-panel {
