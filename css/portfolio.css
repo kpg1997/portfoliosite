@@ -566,10 +566,13 @@ html {
     }
     .header-list li {
         display: inline-block;
-        margin: 0.3rem 0.3rem 0.3rem 0;
+        margin: 0.5rem 0.5rem 0.5rem 0;
         font-size: 1rem;
         cursor: pointer;
         font-weight: bolder;
+    }
+    #first {
+        margin-left: 20px;
     }
     .typing{
         font-size: 500%;
