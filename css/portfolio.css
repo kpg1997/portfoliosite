@@ -653,6 +653,12 @@ html {
         box-shadow: 0 0 10px #000;
         text-align: left;
     }
+    .modal_a{
+        text-align: center;
+        text-decoration: none;
+        margin:5% 0 0 0;
+    }
+    
 }
 
 @media (max-width: 768px) {
@@ -741,6 +747,11 @@ html {
         -ms-box-shadow: 0 0 10px #000;
         box-shadow: 0 0 10px #000;
         text-align: left;
+    }
+    .modal_a{
+        text-align: center;
+        text-decoration: none;
+        margin:5% 0 0 0;
     }
 }
 
