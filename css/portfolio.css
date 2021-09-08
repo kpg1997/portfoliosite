@@ -557,7 +557,7 @@ html {
 
 
 
-@media only screen and (max-width: 425px) {
+@media (max-width: 425px) {
     *{
         font-size: x-small;
     }
@@ -619,7 +619,7 @@ html {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     *{
         font-size: small;
     }
