@@ -565,6 +565,22 @@ html {
     .typing{
         margin: 20vh auto 20vh auto;
     }
+    .kind-img-panel {
+        width: 80px;
+        height: 80px;
+        background-color: white;
+        border-radius: 50%;
+        overflow: hidden;
+        box-shadow: 3px 3px 3px 0px gray;
+        display: inline-block;
+        transition: 0.5s;
+        margin-right: 13px;
+        cursor: pointer;
+    }
+    .kind-img-panel img{
+        width: 70px;
+        height: 70px;
+    }
     .my-work-panel {
         width: 80%;
         margin: 2% auto 2% auto;
@@ -605,6 +621,22 @@ html {
     }
     .typing{
         margin: 20vh auto 20vh auto;
+    }
+    .kind-img-panel {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        border-radius: 50%;
+        overflow: hidden;
+        box-shadow: 3px 3px 3px 0px gray;
+        display: inline-block;
+        transition: 0.5s;
+        margin-right: 13px;
+        cursor: pointer;
+    }
+    .kind-img-panel img{
+        width: 80px;
+        height: 80px;
     }
     .my-work-panel {
         width: 80%;
