@@ -25,18 +25,31 @@ a{
 }
 
 .header {
-    /* background-image: url("/image/background.jpg"); */
     background-size: cover  ;
     background-color: black;
-    /* background: url("angry.PNG"); */
     width: 100%;
-    height: 1100px;
+    margin: 0 auto 0 auto;
+    height: 100vh;
     display: table;
+}
+
+.typing {
+    text-align: center;
+    color: white;
+    /* display: table-cell;
+    vertical-align: middle; */
+    font-size: 700%;
+    display: inline-block;
+    width: 100%;
+    margin: 40vh auto 0 auto;
+    animation-name: cursor;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
 }
 
 .header-list {
     position: fixed;
-    right: 30px;
+    right: 1rem;
     top: 0;
     padding-top: 5px;
     margin: 5px;
@@ -48,10 +61,8 @@ a{
 
 .header-list li {
     display: inline-block;
-    margin-right: 30px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    margin-top: 10px;
+    margin: 1rem 1rem 1rem 0;
+    font-size: 1rem;
     cursor: pointer;
     font-weight: bolder;
 }
@@ -89,25 +100,9 @@ a{
     /* font-family: 'TmoneyRoundWindExtraBold'; */
 }
 
-
-.typing {
-    text-align: center;
-    color: white;
-    /* display: table-cell;
-    vertical-align: middle; */
-    font-size: 250px;
-    display: inline-block;
-    width: auto;
-    margin-left: 21%;
-    margin-top: 21.5%;
-    animation-name: cursor;
-    animation-duration: 0.3s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes cursor {
+/* @keyframes cursor {
     0% {
-        /* border-right: 3px solid #07689f */
+        border-right: 3px solid none
     }
 
     50% {
@@ -115,24 +110,24 @@ a{
     }
 
     100% {
-        /* border-right: 3px solid #07689f */
+        border-right: 3px solid none
     }
-}
+} */
 
 /*body - about me*/
 /* #about-me{
     background-color: ;
 } */
 .about-me-panel {
-    padding: 50px;
-    height: 250px;
-    width: 1100px;
-    margin: 50px auto 50px auto;
+    padding: 5%;
+    height: 50%;
+    width: 70%;
+    margin: 0 auto 0 auto;
 }
 
 .about-me-panel-title {
     text-align: left;
-    font-size: 50px;
+    font-size: 3em;
     font-weight: bolder;
     width: 253px;
     border-bottom: 3px solid black;
@@ -141,6 +136,7 @@ a{
 .about-me-panel-contents {
     margin: auto;
     text-align: left;
+    font-size: 1em;
     margin-top: 30px;
 }
 
@@ -152,11 +148,13 @@ a{
 /*body - skills*/
 #skills {
     background-color: #a5a6a7;
+    margin: 0 auto 0 auto;
 }
 
 .skills-panel {
-    margin: auto;
-    padding: 50px;
+    width: 70%;
+    padding: 5%;
+    margin: 0 auto 0 auto;
 }
 
 .skills-panel-title {
@@ -211,7 +209,6 @@ a{
     filter: brightness(50%);
 }
 
-.skills-panel,
 .percent-panel {
     display: inline-block;
     margin: auto;
@@ -265,7 +262,8 @@ a{
 }
 
 .all {
-    width: 1200px;
+    width: 70%;
+    padding: 5%;
     margin: auto;
 }
 
@@ -281,8 +279,8 @@ details:hover{
 }
 
 .my-work-panel {
-    width: 1100px;
-    margin: 50px auto 50px auto;
+    width: 70%;
+    margin: 3% auto 3% auto;
     padding: 50px;
 }
 
@@ -310,12 +308,12 @@ details:hover{
 }
 
 .my-work-img img {
-    width: 350px;
-    height: 200px;
+    width: 40vh;
+    height: 20vh;
 }
 
 .my-work-img #reactImg {
-    width: 350px;
+    width: 100%;
     height: 200px;
 }
 
@@ -326,8 +324,8 @@ details:hover{
 }
 
 .my-work-contents {
-    margin-left: 30px;
-    width: 700px;
+    margin-left: 5%;
+    width: 50%;
 }
 
 .my-work-contents-title {
@@ -354,9 +352,9 @@ details:hover{
     transition: 0.5s;
 }
 .practice-panel{
-    width: 1100px;
-    margin: 50px auto 50px auto;
-    padding: 50px;
+    width: 70%;
+    margin: 3% auto 3% auto;
+    padding: 5%;
 }
 .practice-panel-title{
     text-align: left;
@@ -376,7 +374,7 @@ details:hover{
 }
 
 .contact-panel {
-    width: 1100px;
+    width: 70%;
     margin: auto;
     padding: 50px;
 }
@@ -554,5 +552,33 @@ html {
     20% {
         transform: scaleY(1.0);
         -webkit-transform: scaleY(1.0)
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    *{
+        font-size: x-small;
+    }
+    .header{
+        height: 50vh;
+    }
+    .typing{
+        margin: 20vh auto 20vh auto;
+    }
+    .my-work-panel {
+        width: 80%;
+        margin: 2% auto 2% auto;
+        padding: 1%;
+    }
+    .practice-panel{
+        margin: 2% auto 2% auto;
+    }
+    .my-work-project {
+        width: 100%;
+    }
+    .my-work-contents {
+        margin-left: 0;
+        width: 90%;
+        font-size: x-small;
     }
 }

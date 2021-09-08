@@ -1,15 +1,15 @@
 $(window).scroll(function(){
     if($(this).scrollTop()>0){
-        $('.header-list').css('right','20px');
+    //     $('.header-list').css('right','20px');
         $('.header-list').css('background','gray');
-        $('.header-list').css('text-align','right');
-        // $('.header-list').css('box-shadow','3px 1px 1px #382d2d');
+    //     $('.header-list').css('text-align','right');
+    //     // $('.header-list').css('box-shadow','3px 1px 1px #382d2d');
         $('.header-list').removeClass("Top_li");
         
     }else{
-        $('.header-list').css('width','auto');
+    //     $('.header-list').css('width','auto');
         $('.header-list').css('background','none');
-        $('.header-list').css('right','30px');
+    //     $('.header-list').css('right','30px');
         $('.header-list').css('box-shadow','none');
         $('.header-list').addClass("Top_li")
     }
