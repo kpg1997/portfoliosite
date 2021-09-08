@@ -589,6 +589,10 @@ html {
         margin: 2% auto 2% auto;
         padding: 1%;
     }
+    .my-work-img #reactImg {
+        width: 38.5vh;
+        height: 20vh;
+    }
     .my-work-img img {
         width: 38.5vh;
         height: 20vh;
