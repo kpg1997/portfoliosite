@@ -563,6 +563,7 @@ html {
         height: 50vh;
     }
     .typing{
+        font-size: small;
         margin: 20vh auto 20vh auto;
     }
     .kind-img-panel {
