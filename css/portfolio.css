@@ -571,7 +571,9 @@ html {
         padding: 1%;
     }
     .practice-panel{
+        width: 80%;
         margin: 2% auto 2% auto;
+        padding: 1%;
     }
     .my-work-project {
         width: 100%;
