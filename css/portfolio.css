@@ -304,7 +304,7 @@ details:hover{
 
 .react {
     text-align: center;
-    width: 350px;
+    width: 100%;
 }
 
 .my-work-img img {
@@ -589,12 +589,12 @@ html {
         margin: 2% auto 2% auto;
         padding: 1%;
     }
-    .my-work-img #reactImg {
+    /* .my-work-img #reactImg {
         width: 38.5vh;
         height: 20vh;
-    }
+    } */
     .my-work-img img {
-        width: 38.5vh;
+        width: 304px;
         height: 20vh;
     }
     .practice-panel{
