@@ -564,6 +564,13 @@ html {
     .header{
         height: 50vh;
     }
+    .header-list li {
+        display: inline-block;
+        margin: 0.3rem 0.3rem 0.3rem 0;
+        font-size: 1rem;
+        cursor: pointer;
+        font-weight: bolder;
+    }
     .typing{
         font-size: 500%;
         margin: 20vh auto 20vh auto;
@@ -580,6 +587,7 @@ html {
         margin-right: 13px;
         cursor: pointer;
     }
+    
     .kind-img-panel img{
         width: 70px;
         height: 70px;
