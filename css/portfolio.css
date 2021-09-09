@@ -5,18 +5,16 @@
     font-style: normal;
 }
 
+code {
+    font-family: monospace;
+  }
+
 /*header*/
 * {
     font-family: 'Jal_Onuel';
     margin: 0;
     padding: 0;
     transition: 0.5s;
-    -ms-user-select: none;
-    -moz-user-select: -moz-none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    user-select: none;
-
 }
 
 a{
@@ -324,7 +322,7 @@ details:hover{
 }
 
 .my-work-contents {
-    margin-left: 5%;
+    margin-left: 4%;
     width: 50%;
 }
 
